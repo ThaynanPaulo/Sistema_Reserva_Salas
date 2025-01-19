@@ -1,3 +1,4 @@
 com\mycompany\sistema_reserva_salas\Usuario.class
+com\mycompany\sistema_reserva_salas\Reserva.class
 com\mycompany\sistema_reserva_salas\Sistema_Reserva_Salas.class
 com\mycompany\sistema_reserva_salas\Sala.class

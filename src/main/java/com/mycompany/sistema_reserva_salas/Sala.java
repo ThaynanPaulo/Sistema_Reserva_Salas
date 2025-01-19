@@ -62,6 +62,4 @@ public class Sala {
         this.capacidade_maxima = capacidade_maxima;
     }
     
-    
-    
 }

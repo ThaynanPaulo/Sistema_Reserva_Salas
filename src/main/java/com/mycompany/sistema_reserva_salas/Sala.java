@@ -9,7 +9,7 @@ package com.mycompany.sistema_reserva_salas;
  * @author Thaynan
  */
 public class Sala {
-     private int numero_sala;
+    private int numero_sala;
     private String tipo_sala; // sala de aula, laborátorio, auditorio...
     private int capacidade_maxima; 
     

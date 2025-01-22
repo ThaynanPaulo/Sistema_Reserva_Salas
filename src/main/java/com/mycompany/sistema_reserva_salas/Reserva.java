@@ -14,22 +14,29 @@ import java.util.Date;
  *
  * @author Thaynan
  */
-public class Reserva {
+public class Reserva  {
 
-    private Date data_inicio;
-    private Date data_fim;
+    private Date data;
     private String horario_inicio;
     private String horario_fim;
-    private String regularidade; // unica, semanal, mensal
     private Sala sala;
     private Usuario usuario;
 
-    public Reserva(Date data_inicio, Date data_fim, String horario_inicio, String horario_fim, String regularidade, Sala sala, Usuario usuario) {
-        this.data_inicio = data_inicio;
-        this.data_fim = data_fim;
+    public Reserva(Date data, String horario_inicio, String horario_fim, Sala sala, Usuario usuario) throws Reserva_Excecao {
+        
+        if (horario_inicio == null || horario_inicio.isEmpty() ) {
+            throw new Reserva_Excecao("O horario de inicio da reserva não pode ser vazio");
+        }
+        if (horario_fim == null || horario_fim.isEmpty() ) {
+            throw new Reserva_Excecao("O horario de término da resrva não pode ser vazio");
+        }
+        if (data == null ) {
+            throw new Reserva_Excecao("A data da reserva não pode ser vazio");
+        }
+        
+        this.data = data;
         this.horario_inicio = horario_inicio;
         this.horario_fim = horario_fim;
-        this.regularidade = regularidade;
         this.sala = sala;
         this.usuario = usuario;
     }
@@ -38,31 +45,17 @@ public class Reserva {
      * @return the data_inicio
      */
     public Date getData_inicio() {
-        return data_inicio;
+        return data;
     }
 
     /**
      * @param data_inicio the data_inicio to set
      */
-    public void setData_inicio(Date data_inicio) {
-        this.data_inicio = data_inicio;
+    public void setData_inicio(Date data) {
+        this.data = data;
     }
 
-    /**
-     * @return the data_fim
-     */
-    public Date getData_fim() {
-        return data_fim;
-    }
-
-    /**
-     * @param data_fim the data_fim to set
-     */
-    public void setData_fim(Date data_fim) {
-        this.data_fim = data_fim;
-    }
-
-    /**
+        /**
      * @return the horario_inicio
      */
     public String getHorario_inicio() {
@@ -90,20 +83,7 @@ public class Reserva {
         this.horario_fim = horario_fim;
     }
 
-    /**
-     * @return the regularidade
-     */
-    public String getRegularidade() {
-        return regularidade;
-    }
-
-    /**
-     * @param regularidade the regularidade to set
-     */
-    public void setRegularidade(String regularidade) {
-        this.regularidade = regularidade;
-    }
-
+    
     /**
      * @return the sala
      */

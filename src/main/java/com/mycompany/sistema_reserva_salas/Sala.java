@@ -13,7 +13,18 @@ public class Sala {
     private String tipo_sala; // sala de aula, laborátorio, auditorio...
     private int capacidade_maxima; 
     
-    public Sala(int numero_sala, String tipo_sala, int capacidade_maxima ) {
+    public Sala(int numero_sala, String tipo_sala, int capacidade_maxima ) throws  Sala_Excecao {
+        
+        if(numero_sala <= 0) {
+            throw new Sala_Excecao("O número da sala tem que ser um numero maior que zero.");
+        }
+        if(capacidade_maxima <= 0) {
+            throw new Sala_Excecao("A capacidade máxima da sala tem que ser um numero maior que zero.");
+        }
+        if (tipo_sala == null || tipo_sala.isEmpty() ) {
+            throw new Sala_Excecao("O Tipo da sala não pode ser vazio");
+        }
+         
         this.numero_sala = numero_sala;
         this.tipo_sala = tipo_sala;
         this.capacidade_maxima = capacidade_maxima;
@@ -27,13 +38,7 @@ public class Sala {
         return numero_sala;
     }
 
-    /**
-     * @param numero_sala the numero_sala to set
-     */
-    public void setNumero_sala(int numero_sala) {
-        this.numero_sala = numero_sala;
-    }
-
+    
     /**
      * @return the tipo_sala
      */
@@ -41,13 +46,7 @@ public class Sala {
         return tipo_sala;
     }
 
-    /**
-     * @param tipo_sala the tipo_sala to set
-     */
-    public void setTipo_sala(String tipo_sala) {
-        this.tipo_sala = tipo_sala;
-    }
-
+    
     /**
      * @return the capacidade_maxima
      */
@@ -55,11 +54,5 @@ public class Sala {
         return capacidade_maxima;
     }
 
-    /**
-     * @param capacidade_maxima the capacidade_maxima to set
-     */
-    public void setCapacidade_maxima(int capacidade_maxima) {
-        this.capacidade_maxima = capacidade_maxima;
-    }
     
 }

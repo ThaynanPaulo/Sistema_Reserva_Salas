@@ -16,6 +16,7 @@ import java.util.List;
 
         @Override
         public boolean Criar_Reserva(Reserva reserva) {
+            
             for(int i = 0; i < Lista_reserva.size(); i++) {
                 if (Lista_reserva.get(i).getData_inicio().equals(reserva.getData_inicio()) &&  Lista_reserva.get(i).getHorario_inicio().equals(reserva.getHorario_inicio()) && Lista_reserva.get(i).getHorario_fim().equals(reserva.getHorario_fim())) {
                 return false;   
@@ -48,6 +49,7 @@ import java.util.List;
         
         @Override
         public void Listar_Reserva_Sala(Sala sala) {
+                        
             for(int i = 0; i < Lista_reserva.size(); i++) {
              if(sala.getNumero_sala() == Lista_reserva.get(i).getSala().getNumero_sala()) {
                 System.out.println("Data: " + Lista_reserva.get(i).getData_inicio());        

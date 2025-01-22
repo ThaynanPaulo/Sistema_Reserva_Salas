@@ -13,7 +13,19 @@ public class Usuario {
     private int matricula;
     private String tipo_usuario; //discente, servidor, terceirizado;
     
-    public Usuario( String nome, int matricula, String tipo) {
+    public Usuario( String nome, int matricula, String tipo) throws  Usuario_Excecao {
+        
+        if (nome == null || nome.isEmpty() ) {
+            throw new Usuario_Excecao("O nome do usuário não pode ser vazio");
+        }
+        
+        if (tipo == null || nome.isEmpty() ) {
+            throw new Usuario_Excecao("O tipo do usuário não pode ser vazio");
+        }
+        if(matricula <= 0) {
+            throw new Usuario_Excecao("A matricula do usuario tem que ser um numerovo maior que zero.");
+        }
+        
         this.nome = nome;
         this.matricula = matricula;
         this.tipo_usuario = tipo;

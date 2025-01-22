@@ -1,6 +1,9 @@
+com\mycompany\sistema_reserva_salas\Sala_Excecao.class
 com\mycompany\sistema_reserva_salas\Servico_de_Reserva.class
+com\mycompany\sistema_reserva_salas\Reserva_Excecao.class
+com\mycompany\sistema_reserva_salas\Sistema_Reserva_Salas.class
+com\mycompany\sistema_reserva_salas\Sala.class
+com\mycompany\sistema_reserva_salas\Usuario_Excecao.class
 com\mycompany\sistema_reserva_salas\Usuario.class
 com\mycompany\sistema_reserva_salas\Reserva_Interface.class
 com\mycompany\sistema_reserva_salas\Reserva.class
-com\mycompany\sistema_reserva_salas\Sistema_Reserva_Salas.class
-com\mycompany\sistema_reserva_salas\Sala.class

@@ -26,18 +26,18 @@ Temos aqui a aplicação de alguns conceitos de boas práticas de programação
 
 No código temos a aplicação de conceitos importantes do clean code como por exemplo Nomes Significativos (nomes das variaveis e das funções de facil entendimento), poucos comentários, formatação e organização consistente (mantendo um padrão de indentação), funções pequenas e simples e ausencia de codigo mortos. Abaixo apresentação de alguns metodos na qual foi aplicado essas práticas. Entretanto, pode ser encontrado através de todo o código.
 
-![image](https://github.com/user-attachments/assets/1ffb6291-9f2e-4bfe-9925-edf66b9d5785)
+![Criar_Reserva()](https://github.com/user-attachments/assets/a8c3d236-d899-4343-ac31-c9cee7ca93c9)
 Criar_Reserva(Reserva reserva)
 
 
-![image](https://github.com/user-attachments/assets/a3253675-eff8-41bb-9907-520a5d18fdc8)
-5.2 Cancelar_Reserva(Reserva)
+![Cancelar_Reserva()](https://github.com/user-attachments/assets/66ef2e6d-ec87-41ea-91cd-f6607180e66d)
+Cancelar_Reserva(Reserva)
 
 
-![image](https://github.com/user-attachments/assets/75ee0705-ed33-4ff0-a588-bf7e77867aec)
+![Listar_Reserva_Sala()](https://github.com/user-attachments/assets/abdca9d9-27ca-452e-b46d-d98e1fbb7966)
 Listar_Reserva_Sala(Sala sala)
 
-![image](https://github.com/user-attachments/assets/f766b2ad-61b4-4c9a-8751-026976e201b1)
+![Listar_Reserva_Usuario()](https://github.com/user-attachments/assets/7509e322-e768-4ca6-bfb6-176fbef59867)
 Listar_Reserva_Usuario(Usuário usuário)
 
 # 4.2 Programação defensiva

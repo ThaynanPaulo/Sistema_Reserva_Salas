@@ -2,8 +2,9 @@
 # [1. Introdução](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#1-introdu%C3%A7%C3%A3o-1)
 # [2. Habilidaes adiquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#2-habilidaes-adiquiridas-ou-requisitadas-para-o-projeto-1)
 # [3. Como executar](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#3-como-executar-1)
-# [4. Principais funcionalidades](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#4-principais-funcionalidades)
-# [4.1 Modo de Gerenciamento de Busca](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#41-modo-de-gerenciamento-de-busca-1)
+# [4. Principais aplicações do conteudo](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#4-principais-funcionalidades)
+# [4.1 Clean code](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#41-modo-de-gerenciamento-de-busca-1)
+# [4.2 Programação Defensiva](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#41-modo-de-gerenciamento-de-busca-1)
 # [5. Exemplos de execução](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#5-exemplos-de-execu%C3%A7%C3%A3o-1)
 # [5.1 Inserção de arquivos](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#51-inser%C3%A7%C3%A3o-de-arquivos-1)
  
@@ -23,7 +24,21 @@ Temos aqui a aplicação de alguns conceitos de boas práticas de programação
 
 # 4.1 Clean Code
 
-No código temos a aplicação de conceitos importantes do clean code como por exemplo Nomes Significativos (nomes das variaveis e das funções de facil entendimento), poucos comentários, formatação e organização consistente (mantendo um padrão de indentação), funções pequenas e simples e ausencia de codigo mortos.
+No código temos a aplicação de conceitos importantes do clean code como por exemplo Nomes Significativos (nomes das variaveis e das funções de facil entendimento), poucos comentários, formatação e organização consistente (mantendo um padrão de indentação), funções pequenas e simples e ausencia de codigo mortos. Abaixo apresentação de alguns metodos na qual foi aplicado essas práticas. Entretanto, pode ser encontrado através de todo o código.
+
+![image](https://github.com/user-attachments/assets/1ffb6291-9f2e-4bfe-9925-edf66b9d5785)
+Criar_Reserva(Reserva reserva)
+
+
+![image](https://github.com/user-attachments/assets/a3253675-eff8-41bb-9907-520a5d18fdc8)
+5.2 Cancelar_Reserva(Reserva)
+
+
+![image](https://github.com/user-attachments/assets/75ee0705-ed33-4ff0-a588-bf7e77867aec)
+Listar_Reserva_Sala(Sala sala)
+
+![image](https://github.com/user-attachments/assets/f766b2ad-61b4-4c9a-8751-026976e201b1)
+Listar_Reserva_Usuario(Usuário usuário)
 
 # 4.2 Programação defensiva
 
@@ -51,22 +66,18 @@ Nesse tópico apresentamos alguns exemplos de código
 
 ## 5.1 Criar_Reserva()
 
-![image](https://github.com/user-attachments/assets/1ffb6291-9f2e-4bfe-9925-edf66b9d5785)
 
 
 ## 5.2 Cancelar_Reserva()
 
-![image](https://github.com/user-attachments/assets/a3253675-eff8-41bb-9907-520a5d18fdc8)
-
 
 ## 5.3 Listar_Reserva_Sala()
 
-![image](https://github.com/user-attachments/assets/75ee0705-ed33-4ff0-a588-bf7e77867aec)
 
 
 ## 5.4 Listar_Reserva_Usuario()
 
-![image](https://github.com/user-attachments/assets/f766b2ad-61b4-4c9a-8751-026976e201b1)
+
 
 
 

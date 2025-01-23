@@ -13,7 +13,7 @@
 # 1. Introdução
 Esse Projeto visa à criação de um Sistema de Reserva de Salas. Foi criado na linguagem de programação Java e realizado.
 
-# 2. Habilidades adiquiridas ou requisitadas para o projeto
+# 2. Habilidades adquiridas ou requisitadas para o projeto
 Conhecimento básico da linguagem de programação Java. Domínio da Programação Orientada a Objetos, Clean Code, Programação defensiva e teste de software.
 
 # 3. Como executar

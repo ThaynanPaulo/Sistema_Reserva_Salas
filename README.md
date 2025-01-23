@@ -1,6 +1,6 @@
 
 # [1. Introdução](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#1-introdu%C3%A7%C3%A3o-1)
-# [2. Habilidades adquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#2-habilidaes-adiquiridas-ou-requisitadas-para-o-projeto-1)
+# [2. Habilidades adquiridas ou requisitadas para o projeto](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#2-habilidades-adquiridas-ou-requisitadas-para-o-projeto-1)
 # [3. Como executar](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#3-como-executar-1)
 # [4. Principais aplicações do conteudo](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#4-principais-funcionalidades)
 # [4.1 Clean code](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#41-clean-code-1)

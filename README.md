@@ -4,7 +4,7 @@
 # [4.1 Modo de Gerenciamento de Busca](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#41-modo-de-gerenciamento-de-busca)
 # [5. Exemplos de execução](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#5-exemplos-de-execu%C3%A7ao)
 # [5.1 Inserção de arquivos](https://github.com/ThaynanPaulo/Pesquisador-de-palavras/blob/main/README.md#51-inser%C3%A7%C3%A3o-de-arquivos)
-
+ 
 
 # 1. Introdução
 Esse Projeto visa à criação de um pesquisador de palavras em arquivos. Foi criado na linguagem de programação C++ e realizado por um grupo de alunos da UFRN.

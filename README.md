@@ -59,29 +59,38 @@ Caso os casos não sejam contemplados uma mensagem de erro é emitida explicitan
 
 # 4.3 Testes de software 
 
- Foram realizados testes unitários para verificar se ao acrescer reservas serão apresentadas corretamente.
+#4.3.1. Testes Unitários
 
- ## 5. Exemplos de execução
+ Foram realizados testes unitários para verificar se o ato de acrescer/cancelar reservas será apresentadas corretamente. Para tanto foi criado a classe Servico_de_ReservaTest com os metodos testCriar_Reserva() e testCancelar_Reserva().
+ 
+
+ ![image](https://github.com/user-attachments/assets/2d2113d8-e73c-43aa-b340-146fd56c61c5)
+Primeiro teste unitário relacionado ao metodo testCriar_Reserva(). Nesse caso são criados os usuário, as salas e adicionados a ao array de reserva junto com as informações adicionais da reserva.
+Após isso, é verificado se o número da sala da primeira reserva aparece no array.
+
+![image](https://github.com/user-attachments/assets/e94aa72b-6344-4697-b9da-31f1a9a5ab59)
+Segundo teste relacionado ao método testCancelar_Reserva(). Tal qual o primeiro caso é criado uma reserva e removido. É verificado a confirmação da remoção.
+
+![image](https://github.com/user-attachments/assets/798d7aaa-68b3-46a9-8730-1ddf2d658797)
+Ambos os testes são positivos.
+
+4.3.2 Debugger
+Aqui colocamos pontos de interrupção no para mostrar o acréscimo e remoção de reserva na classe Sistema_Reserva_Salas onde se encontra o main.
+
+![image](https://github.com/user-attachments/assets/0abdc500-75ec-4599-af93-f428ff98c05a)
+Inclusão da reserva com as informações
+
+![image](https://github.com/user-attachments/assets/451f027d-b225-46e2-bb52-31865fc9fe56)
+remoção da reserva. Informações do debug foram eliminadas.
+
+## 5. Exemplos de execução
 
 Nesse tópico apresentamos alguns exemplos de código
 
-## 5.1 Criar_Reserva()
+## 5.1 Consulta de reservas para a sala 
 
+![image](https://github.com/user-attachments/assets/6c2edfac-62b7-49ff-9d7e-9d11fbfe4b60)
+Apresentação das reservas para a variavel Sala_teste1 (sala nº 253).
 
-
-## 5.2 Cancelar_Reserva()
-
-
-## 5.3 Listar_Reserva_Sala()
-
-
-
-## 5.4 Listar_Reserva_Usuario()
-
-
-
-
-
-![Inserção arquivos](https://github.com/user-attachments/assets/5d43dc3b-9e75-4f50-b51a-196f83b5f063)
-
-
+![image](https://github.com/user-attachments/assets/dead228d-9b01-469b-b1ab-41650daf7411)
+Apresentação das reservas para a variavel Usuario_teste (matrícula nº 189222).

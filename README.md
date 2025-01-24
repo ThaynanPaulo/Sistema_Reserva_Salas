@@ -9,7 +9,7 @@
 ### [4.3.1. Testes Unitários](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#431-testes-unit%C3%A1rios-1)
 ### [4.3.2 Debugger](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#432-debugger-1)
 # [5. Exemplos de execução](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#5-exemplos-de-execu%C3%A7%C3%A3o-1)
-## [5.1 Consulta de reservas por sala e usuário](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#51-consulta-de-reservas-para-a-sala)
+## [5.1 Consulta de reservas por sala e usuário](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#51-consulta-de-reservas-por-sala-e-usu%C3%A1rio-1)
  
 
 # 1. Introdução

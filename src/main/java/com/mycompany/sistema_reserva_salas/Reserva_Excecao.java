@@ -9,7 +9,12 @@ package com.mycompany.sistema_reserva_salas;
  * @author Thaynan
  */
 public class Reserva_Excecao extends Exception {
-     public Reserva_Excecao(String mensagem) {
+
+    /**
+     *
+     * @param mensagem
+     */
+    public Reserva_Excecao(String mensagem) {
         super(mensagem);
      }
 }

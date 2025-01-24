@@ -13,6 +13,13 @@ public class Usuario {
     private int matricula;
     private String tipo_usuario; //discente, servidor, terceirizado;
     
+    /**
+     *
+     * @param nome
+     * @param matricula
+     * @param tipo
+     * @throws Usuario_Excecao
+     */
     public Usuario( String nome, int matricula, String tipo) throws  Usuario_Excecao {
         
         if (nome == null || nome.isEmpty() ) {
@@ -38,14 +45,6 @@ public class Usuario {
     public String getNome() {
         return nome;
     }
-
-    /**
-     * @param nome the nome to set
-     */
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     /**
      * @return the matricula
      */
@@ -53,27 +52,12 @@ public class Usuario {
         return matricula;
     }
 
-    /**
-     * @param matricula the matricula to set
-     */
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
-    }
-
-    /**
+        /**
      * @return the tipo_usuario
      */
     public String getTipo_usuario() {
         return tipo_usuario;
     }
 
-    /**
-     * @param tipo_usuario the tipo_usuario to set
-     */
-    public void setTipo_usuario(String tipo_usuario) {
-        this.tipo_usuario = tipo_usuario;
-    }
-    
-    
-    
+     
 }

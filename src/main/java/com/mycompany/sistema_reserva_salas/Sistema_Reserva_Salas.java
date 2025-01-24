@@ -12,6 +12,10 @@ import java.util.Date;
  */
 public class Sistema_Reserva_Salas {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Sala Sala_teste = null;
         Usuario Usuario_teste = null;
@@ -26,7 +30,7 @@ public class Sistema_Reserva_Salas {
         }
         
         try {
-            Sala_teste = new Sala(-253, "Auditorio", 100);               // verificação de erros dos construtores de salas
+            Sala_teste = new Sala(253, "Auditorio", 100);               // verificação de erros dos construtores de salas
         } catch (Sala_Excecao e) {
             System.out.println("Erro ao criar sala: " + e.getMessage());
         }
@@ -49,6 +53,10 @@ public class Sistema_Reserva_Salas {
         }
         
         Servico_reserva.Listar_Reserva_Usuario(Usuario_teste);
+        Servico_reserva.Cancelar_Reserva(Reserva_teste);
+        System.out.println("Removeu!");
+        Servico_reserva.Listar_Reserva_Usuario(Usuario_teste);
+        
         
     }
 }

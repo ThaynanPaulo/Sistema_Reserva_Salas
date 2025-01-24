@@ -13,6 +13,13 @@ public class Sala {
     private String tipo_sala; // sala de aula, laborátorio, auditorio...
     private int capacidade_maxima; 
     
+    /**
+     *
+     * @param numero_sala
+     * @param tipo_sala
+     * @param capacidade_maxima
+     * @throws Sala_Excecao
+     */
     public Sala(int numero_sala, String tipo_sala, int capacidade_maxima ) throws  Sala_Excecao {
         
         if(numero_sala <= 0) {

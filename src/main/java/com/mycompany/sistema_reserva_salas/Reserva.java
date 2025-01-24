@@ -22,6 +22,15 @@ public class Reserva  {
     private Sala sala;
     private Usuario usuario;
 
+    /**
+     *
+     * @param data
+     * @param horario_inicio
+     * @param horario_fim
+     * @param sala
+     * @param usuario
+     * @throws Reserva_Excecao
+     */
     public Reserva(Date data, String horario_inicio, String horario_fim, Sala sala, Usuario usuario) throws Reserva_Excecao {
         
         if (horario_inicio == null || horario_inicio.isEmpty() ) {
@@ -48,25 +57,11 @@ public class Reserva  {
         return data;
     }
 
-    /**
-     * @param data_inicio the data_inicio to set
-     */
-    public void setData_inicio(Date data) {
-        this.data = data;
-    }
-
-        /**
+     /**
      * @return the horario_inicio
      */
     public String getHorario_inicio() {
         return horario_inicio;
-    }
-
-    /**
-     * @param horario_inicio the horario_inicio to set
-     */
-    public void setHorario_inicio(String horario_inicio) {
-        this.horario_inicio = horario_inicio;
     }
 
     /**
@@ -75,27 +70,12 @@ public class Reserva  {
     public String getHorario_fim() {
         return horario_fim;
     }
-
-    /**
-     * @param horario_fim the horario_fim to set
-     */
-    public void setHorario_fim(String horario_fim) {
-        this.horario_fim = horario_fim;
-    }
-
-    
+   
     /**
      * @return the sala
      */
     public Sala getSala() {
         return sala;
-    }
-
-    /**
-     * @param sala the sala to set
-     */
-    public void setSala(Sala sala) {
-        this.sala = sala;
     }
 
     /**
@@ -105,12 +85,5 @@ public class Reserva  {
         return usuario;
     }
 
-    /**
-     * @param usuario the usuario to set
-     */
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
-    }
-    
     
 }

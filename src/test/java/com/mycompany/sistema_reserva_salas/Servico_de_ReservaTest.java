@@ -78,7 +78,6 @@ public class Servico_de_ReservaTest {
         Sala Sala_teste3 = new Sala(10, "Sala de matematica", 35);
         Reserva Reserva_teste3 = new Reserva(new Date(), "21:00", "22:00", Sala_teste3, Usuario_teste3);
     
-     
         Servico_de_Reserva  Servico_reserva = new Servico_de_Reserva();
         Servico_reserva.Criar_Reserva(Reserva_teste1);
         Servico_reserva.Criar_Reserva(Reserva_teste2);
@@ -101,14 +100,15 @@ public class Servico_de_ReservaTest {
      */
     @org.junit.jupiter.api.Test
     public void testCancelar_Reserva() throws Usuario_Excecao, Sala_Excecao, Reserva_Excecao {
-    Usuario Usuario_teste1 = new Usuario("Thaynan", 189222, "Servidor");
-    Sala Sala_teste1 = new Sala(253, "Auditorio", 100);
-    Reserva Reserva_teste1 = new Reserva(new Date(), "19:00", "21:00", Sala_teste1, Usuario_teste1);
+        
+        Usuario Usuario_teste1 = new Usuario("Thaynan", 189222, "Servidor");
+        Sala Sala_teste1 = new Sala(253, "Auditorio", 100);
+        Reserva Reserva_teste1 = new Reserva(new Date(), "19:00", "21:00", Sala_teste1, Usuario_teste1);
 
-    Servico_de_Reserva  Servico_reserva = new Servico_de_Reserva();
-    Servico_reserva.Criar_Reserva(Reserva_teste1);
+        Servico_de_Reserva  Servico_reserva = new Servico_de_Reserva();
+        Servico_reserva.Criar_Reserva(Reserva_teste1);
 
-    Assertions.assertTrue(Servico_reserva.Cancelar_Reserva(Reserva_teste1));
+        Assertions.assertTrue(Servico_reserva.Cancelar_Reserva(Reserva_teste1));
     }
 
 }

@@ -50,10 +50,11 @@ import java.util.List;
     @Override
         public void Listar_Reserva_Usuario(Usuario usuario) {
         
+                System.out.println("Apresentação das reservas relativo ao usuário: " + usuario.getMatricula());   
         for(int i = 0; i < getLista_reserva().size(); i++) {
              if(usuario.getMatricula() == getLista_reserva().get(i).getUsuario().getMatricula()) {
                 System.out.println("Data: " + getLista_reserva().get(i).getData_inicio());        
-                System.out.println("Horário Inicial: " + getLista_reserva().get(i).getHorario_inicio() + ", Horário Final: " + getLista_reserva().get(i).getHorario_fim());
+                System.out.println("Horário Inicial: " + getLista_reserva().get(i).getHorario_inicio() + ", Horário Final: " + getLista_reserva().get(i).getHorario_fim() + "\n");
                 }
             
             }
@@ -67,10 +68,12 @@ import java.util.List;
     @Override
         public void Listar_Reserva_Sala(Sala sala) {
                         
+            System.out.println("Apresentação das reservas relativo à sala: " + sala.getNumero_sala());         
             for(int i = 0; i < getLista_reserva().size(); i++) {
              if(sala.getNumero_sala() == getLista_reserva().get(i).getSala().getNumero_sala()) {
+                
                 System.out.println("Data: " + getLista_reserva().get(i).getData_inicio());        
-                System.out.println("Horário Inicial: " + getLista_reserva().get(i).getHorario_inicio() + ", Horário Final: " + getLista_reserva().get(i).getHorario_fim());
+                System.out.println("Horário Inicial: " + getLista_reserva().get(i).getHorario_inicio() + ", Horário Final: " + getLista_reserva().get(i).getHorario_fim()+ "\n");
                 }
             
             }

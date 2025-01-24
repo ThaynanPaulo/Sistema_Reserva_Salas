@@ -53,10 +53,10 @@ Imagem 05: Classe usuário. Verificação se as variaveis do tipo string nome e 
 
 
 ![image](https://github.com/user-attachments/assets/f2e64bf2-8978-41f7-be76-679a8b99c6fd)
-Classe Sala. Verificação se as variaveis do tipo inteiro número da sala e capacidade são maiores que zero e a string do tipo de sala não é nula.
+Imagem 06: Classe Sala. Verificação se as variaveis do tipo inteiro número da sala e capacidade são maiores que zero e a string do tipo de sala não é nula.
 
 ![image](https://github.com/user-attachments/assets/4d245efa-bdfa-4773-af37-9e4b37d75910)
-Imagem 06: Classe Reserva. Verificação se as variaveis data, horario inicio e fim são não-nulas. Como as variaveis usuário fram verificadas anteriomente não há necessidade. Caso os casos não sejam contemplados uma mensagem de erro é emitida explicitando o tipo de erro.
+Imagem 07: Classe Reserva. Verificação se as variaveis data, horario inicio e fim são não-nulas. Como as variaveis usuário fram verificadas anteriomente não há necessidade. Caso os casos não sejam contemplados uma mensagem de erro é emitida explicitando o tipo de erro.
 
 
 ## 4.3 Testes de software 
@@ -68,15 +68,15 @@ Alguns testes realizados.
 Foram realizados testes unitários para verificar se o ato de acrescer/cancelar reservas será apresentadas corretamente. Para tanto foi criado a classe Servico_de_ReservaTest com os metodos testCriar_Reserva() e testCancelar_Reserva().
  
 ![image](https://github.com/user-attachments/assets/2d2113d8-e73c-43aa-b340-146fd56c61c5)
-Imagem 07: Primeiro teste unitário relacionado ao metodo testCriar_Reserva(). Nesse caso são criados os usuário, as salas e adicionados a ao array de reserva junto com as informações adicionais da reserva. Após isso, é verificado se o número da sala da primeira reserva aparece no array.
+Imagem 08: Primeiro teste unitário relacionado ao metodo testCriar_Reserva(). Nesse caso são criados os usuário, as salas e adicionados a ao array de reserva junto com as informações adicionais da reserva. Após isso, é verificado se o número da sala da primeira reserva aparece no array.
 
 
 ![image](https://github.com/user-attachments/assets/e94aa72b-6344-4697-b9da-31f1a9a5ab59)
-Imagem 08: Segundo teste relacionado ao método testCancelar_Reserva(). Tal qual o primeiro caso é criado uma reserva e removido. É verificado a confirmação da remoção.
+Imagem 09: Segundo teste relacionado ao método testCancelar_Reserva(). Tal qual o primeiro caso é criado uma reserva e removido. É verificado a confirmação da remoção.
 
 
 ![image](https://github.com/user-attachments/assets/798d7aaa-68b3-46a9-8730-1ddf2d658797)
-Imagem 09: Ambos os testes são positivos.
+Imagem 10: Ambos os testes são positivos.
 
 
 ### 4.3.2 Debugger
@@ -84,10 +84,10 @@ Aqui colocamos pontos de interrupção no para mostrar o acréscimo e remoção 
 
 
 ![image](https://github.com/user-attachments/assets/0abdc500-75ec-4599-af93-f428ff98c05a)
-Imagem 10: Inclusão da reserva com as informações
+Imagem 11: Inclusão da reserva com as informações
 
 ![image](https://github.com/user-attachments/assets/451f027d-b225-46e2-bb52-31865fc9fe56)
-Imagem 11: Remoção da reserva. Informações do debug foram eliminadas.
+Imagem 12: Remoção da reserva. Informações do debug foram eliminadas.
 
 
 # 5. Exemplos de execução
@@ -97,7 +97,7 @@ Nesse tópico apresentamos alguns exemplos de código
 ## 5.1 Consulta de reservas para a sala 
 
 ![image](https://github.com/user-attachments/assets/6c2edfac-62b7-49ff-9d7e-9d11fbfe4b60)
-Imagem 12: Apresentação das reservas para a variavel Sala_teste1 (sala nº 253).
+Imagem 13: Apresentação das reservas para a variavel Sala_teste1 (sala nº 253).
 
 ![image](https://github.com/user-attachments/assets/dead228d-9b01-469b-b1ab-41650daf7411)
-Imagem 13: Apresentação das reservas para a variavel Usuario_teste (matrícula nº 189222).
+Imagem 14: Apresentação das reservas para a variavel Usuario_teste (matrícula nº 189222).

@@ -6,6 +6,8 @@
 ## [4.1 Clean code](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#41-clean-code-1)
 ## [4.2 Programação Defensiva](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#42-programa%C3%A7%C3%A3o-defensiva-1)
 ## [4.3 Testes de software](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#43-testes-de-software-1)
+### [4.3.1. Testes Unitários]
+### [4.3.2 Debugger]
 # [5. Exemplos de execução](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#5-exemplos-de-execu%C3%A7%C3%A3o-1)
 ## [5.1 Inserção de arquivos](https://github.com/ThaynanPaulo/Sistema_Reserva_Salas/blob/main/README.md#51-consulta-de-reservas-para-a-sala)
  
@@ -57,11 +59,12 @@ Caso os casos não sejam contemplados uma mensagem de erro é emitida explicitan
 
 ## 4.3 Testes de software 
 
-##4.3.1. Testes Unitários
+Alguns testes realizados.
+
+### 4.3.1. Testes Unitários
 
 Foram realizados testes unitários para verificar se o ato de acrescer/cancelar reservas será apresentadas corretamente. Para tanto foi criado a classe Servico_de_ReservaTest com os metodos testCriar_Reserva() e testCancelar_Reserva().
  
-
 ![image](https://github.com/user-attachments/assets/2d2113d8-e73c-43aa-b340-146fd56c61c5)
 Primeiro teste unitário relacionado ao metodo testCriar_Reserva(). Nesse caso são criados os usuário, as salas e adicionados a ao array de reserva junto com as informações adicionais da reserva.
 Após isso, é verificado se o número da sala da primeira reserva aparece no array.
